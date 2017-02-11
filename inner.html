@@ -7,8 +7,9 @@
     <link href="css/style.css" rel="stylesheet"  type="text/css">
   </head>
   <body>
-    <header class="main-header">
+    <header class="main-header-second">
       <div class="container">
+        <div class="container clearfix">
         <div class="logotip">
           <a href="#">
           <img src="img/nerds-logo.png" width="160" height="65" alt="Нердс логотип">
@@ -33,11 +34,15 @@
         <div class="user-basket">
           <a class="#" href="#">Корзина</a>
         </div>
+        </div>
       </div>
+      <div class="container clearfix">
       <div class="banner">
         <h1>Магазин готовых шаблонов</h1>
       </div>
+      </div>
     </header>
+    <div class="container">
     <div class="index-content-left">
       <form action="#" method="post">
         <div class="product-range">
@@ -91,17 +96,22 @@
      </form>
      </div>
      <div class="index-content-right">
+       <div class="container clearfix">
        <div class="sort">
-         <h2>Сортировать:</h2>
+         <div class="sort-name">
+           <h2>Сортировать:</h2>
+         </div>
+         <div class="sort-item">
          <a href="#">по цене</a>
          <a href="#">по типу</a>
          <a href="#">по названию</a>
          <a href="#">
-           <img src="#" alt="Стрелка уменьшения">
+           <img src="#" alt="Меньше">
          </a>
          <a href="#">
-           <img src="#" alt="Стрелка увеличения">
+           <img src="#" alt="Больше">
          </a>
+         </div>
        </div>
        <article class="shop-item">
          <img src="img/sedona.jpg" width="360" height="576" alt="Страница сайта Sedona">
@@ -168,23 +178,31 @@
          </ul>
        </div>
      </div>
-    <footer>
-      <div class="map">
-        <iframe src="img/map-marker.png.jpg" width="1440" height="416"></iframe>
-        <form action="#" method="post">
-        <h3>NЁRDS DESIGN STUDIO</h3>
-        <span>191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8  тел. +7 (812) 275-75-75</span>
-        <span>тел. +7 (812) 275-75-75</span>
-        <input type="submit" value="Напишите нам">
-        </form>
-      </div>
-      <div class="footer-social">
-        <a class="social-vk" href="#">Вконтакте</a>
-        <a class="social-fb" href="#">Фейсбук</a>
-        <a class="social-inst" href="#">Инстаграм</a>
-      </div>
-      <span class="footer-slogan">Давайте дружить, это выгодно!</span>
-      <p>Скидка 10% для друзей из социальных сетей.</p>
-    </footer>
+     </div>
+     </div>
+     <footer class="main-footer">
+       <div class="container clearfix">
+       <div class="map">
+         <iframe src="img/map-marker.png.jpg" width="1440" height="420"></iframe>
+         <form action="#" method="post">
+         <div class="address">
+           <h3>NЁRDS DESIGN STUDIO</h3>
+           <span>191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8  тел. +7 (812) 275-75-75</span>
+           <span>тел. +7 (812) 275-75-75</span>
+           <input type="submit" value="Напишите нам">
+           </div>
+         </form>
+       </div>
+       </div>
+       <div class="footer-social">
+         <a class="social-vk" href="#">Вконтакте</a>
+         <a class="social-fb" href="#">Фейсбук</a>
+         <a class="social-inst" href="#">Инстаграм</a>
+       </div>
+       <div class="footer-slogan">
+         <span>Давайте дружить, это выгодно!</span>
+         <p>Скидка 10% для друзей из социальных сетей.</p>
+       </div>
+     </footer>
   </body>
 </html>
