@@ -9,6 +9,7 @@
   <body>
     <header class="main-header">
       <div class="container">
+        <div class="container clearfix">
         <div class="logotip">
           <img src="img/nerds-logo.png" width="160" height="65" alt="Нердс логотип">
         </div>
@@ -32,51 +33,62 @@
           <a class="#" href="#">Корзина</a>
         </div>
       </div>
+    </div>
       <div class='slider'>
-          <input type="radio" name="slider" id="slider-one" checked="checked">
-          <label for="slider-one"></label>
-        <div>
-          <h1>Долго, дорого,<br> скрупулезно.</h1>
-          <p>Математически выверенный дизайн <br>для вашего сайта или мобильного</p>
-          <img src="img/nerds-index-slide1.png" width="698" height="413">
-        </div>
-          <input type="radio" name="slider" id="slider-two">
-          <label for="slider-two"></label>
-        <div>
-          <h1>Любим математику <br>как никто другой</h1>
-          <p>Никакого креатива, только математические формулы <br>для расчета идеальных пропорций</p>
-          <img src="img/nerds-index-slide2.png" width="663" height="430">
-        </div>
-          <input type="radio" name="slider" id="slider-three">
-          <label for="slider-three"></label>
-        <div>
-          <h1>Только ночь, <br>только хардкор</h1>
-          <p>Работать днем, как все? Мы против этого. <br>Ближе к полуночи работа только начинается</p>
-          <img src="img/nerds-index-slide3.png" width="759" height="411">
-        </div>
+        <div class="container clearfix">
+          <div class='slider-slogan'>
+            <h1>Долго, дорого,<br> скрупулезно.</h1>
+            <p>Математически выверенный дизайн <br>для вашего сайта или мобильного</p>
+            <input type="radio" name="slider" id="slider-one" checked="checked">
+            <label for="slider-one"></label>
+            </div>
+          <div class='slider-img'>
+            <img src="img/nerds-index-slide1.png" width="698" height="413">
+          </div>
+          <div class='slider-slogan'>
+            <h1>Любим математику <br>как никто другой</h1>
+            <p>Никакого креатива, только математические формулы <br>для расчета идеальных пропорций</p>
+            <input type="radio" name="slider" id="slider-two">
+            <label for="slider-two"></label>
+          </div>
+          <div class='slider-img'>
+            <img src="img/nerds-index-slide2.png" width="663" height="430">
+          </div>
+          <div class='slider-slogan'>
+            <h1>Только ночь, <br>только хардкор</h1>
+            <p>Работать днем, как все? Мы против этого. <br>Ближе к полуночи работа только начинается</p>
+            <input type="radio" name="slider" id="slider-three">
+            <label for="slider-three"></label>
+            </div>
+          <div class='slider-img'>
+            <img src="img/nerds-index-slide3.png" width="759" height="411">
+          </div>
         <a href="#">Узнать больше</a>
       </div>
+    </div>
     </header>
     <section class="features">
-        <div class="features-web">
+        <div class="features-item">
           <img src="img/web-one.jpg" width="300" height="146" alt="Рисунок компьютера">
           <h2>Веб-сайты</h2>
           <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
           <a href="#">Заказать</a>
         </div>
-        <div class="features-apps">
+        <div class="features-item">
           <img src="img/apps-two.jpg" width="300" height="146" alt="Рисунок планшета">
           <h2>Приложения</h2>
           <p>Покорите топ-10 приложений в AppStore и Google Play</p>
           <a href="#">Заказать</a>
         </div>
-        <div class="features-presentation">
+        <div class="features-item">
           <img src="img/presentation-three.jpg" width="300" height="146" alt="Рисунок презентации">
           <h2>Презентации</h2>
           <p>Вы даже не подозреваете, насколько вы изумительны!</p>
           <a href="#">Заказать</a>
         </div>
     </section>
+    <div class="studio">
+    <div class="container clearfix">
     <div class="container-studio-right">
       <p><b>Мы — маленькая, но гордая дизайн-студия из Краснодара.</b></p>
       <p>Исповедуем принципы минимализма и чистоты. Ставим математически</p>
@@ -111,6 +123,7 @@
        </div>
       </div>
     </div>
+    </div>
     <div class="partners">
       <a href="#">
         <img src="img/html_academy_logo.png" width="199" height="68" alt="Логотип HTML Academy">
@@ -125,15 +138,20 @@
         <img src="img/mishka_logo.png" width="173" height="84" alt="Логотип Mishka">
       </a>
     </div>
-    <footer>
+    </div>
+    <footer class="main-footer">
+      <div class="container clearfix">
       <div class="map">
-        <iframe src="img/map-marker.png.jpg" width="1440" height="416"></iframe>
+        <iframe src="img/map-marker.png.jpg" width="1440" height="420"></iframe>
         <form action="#" method="post">
-        <h3>NЁRDS DESIGN STUDIO</h3>
-        <span>191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8  тел. +7 (812) 275-75-75</span>
-        <span>тел. +7 (812) 275-75-75</span>
-        <input type="submit" value="Напишите нам">
+        <div class="address">
+          <h3>NЁRDS DESIGN STUDIO</h3>
+          <span>191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8  тел. +7 (812) 275-75-75</span>
+          <span>тел. +7 (812) 275-75-75</span>
+          <input type="submit" value="Напишите нам">
+          </div>
         </form>
+      </div>
       </div>
       <div class="footer-social">
         <a class="social-vk" href="#">Вконтакте</a>
